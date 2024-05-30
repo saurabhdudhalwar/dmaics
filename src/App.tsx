@@ -1,24 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import AboutUs from "./aboutUs/AboutUs";
+import Home from "./home/Home";
+import Navbar from "./navbar/Navbar";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Regulatory from "./regulatory/Regulatory";
+import ProductList from "./productList/ProductList";
+import ContactUs from "./contactUs/ContactUs";
+import MyCarousel from "./home/MyCarousel";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+        <Navbar />
+        <div style={{ marginTop: "18vh" }}>
+          
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about-us" element={<AboutUs />} />
+            <Route path="/regulatory" element={<Regulatory />} />
+            <Route path="/product-list" element={<ProductList />} />
+            <Route path="/contact-us" element={<ContactUs />} />
+          </Routes>
+        </div>
+      </Router>
     </div>
   );
 }

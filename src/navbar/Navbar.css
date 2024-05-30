@@ -1,0 +1,131 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease, top 0.3s ease;
+}
+
+.navbar-top {
+  background-color: #31b651;
+  height: 5vh;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact-info {
+  color: white;
+  font-size: 14px;
+}
+
+.navbar-bottom {
+  display: flex;
+  height: 8vh;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-logo {
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links-desktop {  
+  display: flex;  
+  gap: 2vw;
+  margin-right: 5vw;
+  font-weight: 600;
+  color: #111418;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.nav-dropdown {
+  position: relative;
+  display: none;
+}
+
+.nav-dropdown-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.nav-dropdown-content {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: none;
+}
+
+.nav-dropdown.open .nav-dropdown-content {
+  display: block;
+}
+
+.nav-dropdown.open .nav-dropdown-btn::after {
+  content: "\25b2";
+}
+
+.nav-links-desktop a {
+  margin-right: 20px;
+}
+
+.sticky {
+  top: -55px; /* Height of navbar-top */
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links-desktop {
+    display: none;
+  }
+
+  .nav-dropdown {
+    display: block;
+  }
+}
+
+.contact-info {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: flex-start; /* Align to the left */
+  flex-grow: 1; /* Allow it to take up remaining space */
+  padding-left: 5vw;
+}
+
+.contact-info span {
+  margin-right: 20px; /* Add some spacing between the text */
+}
+
+.select-wrapper {
+  position: relative;
+  padding-right: 5vw;
+}
+
+.select-wrapper select {
+  width: 10vw;
+  padding: 10px;
+  appearance: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.flag-icon {
+  width: 20px; /* Adjust size as needed */
+  margin-right: 10px; /* Add spacing between flag and text */
+}
+
