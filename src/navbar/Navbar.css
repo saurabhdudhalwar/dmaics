@@ -1,3 +1,4 @@
+/* General styles */
 .navbar {
   position: fixed;
   top: 0;
@@ -6,6 +7,7 @@
   transition: background-color 0.3s ease, top 0.3s ease;
 }
 
+/* Top bar styles */
 .navbar-top {
   background-color: #31b651;
   height: 5vh;
@@ -38,6 +40,7 @@
   align-items: center;
 }
 
+/* Desktop nav links */
 .nav-links-desktop {  
   display: flex;  
   gap: 2vw;
@@ -48,6 +51,7 @@
   cursor: pointer;
 }
 
+/* Dropdown menu styles */
 .nav-dropdown {
   position: relative;
   display: none;
@@ -60,32 +64,61 @@
   font-size: 16px;
 }
 
+/* Dropdown content styling for mobile view */
 .nav-dropdown-content {
   position: absolute;
-  top: 40px;
+  top: 55px;
   right: 0;
-  background-color: #fff;
+  background-color: #ffffff;
   border: 1px solid #ddd;
-  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 15px;
   display: none;
+  flex-direction: column;
+  width: 80vw;
+  max-width: 250px;
 }
 
 .nav-dropdown.open .nav-dropdown-content {
+  display: flex;
+}
+
+/* Overlay for background dimming when dropdown is open */
+.nav-dropdown-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 900;
+}
+
+.nav-dropdown.open ~ .nav-dropdown-overlay {
   display: block;
 }
-
-.nav-dropdown.open .nav-dropdown-btn::after {
-  content: "\25b2";
-}
-
-.nav-links-desktop a {
-  margin-right: 20px;
-}
-
 .sticky {
   top: -55px; /* Height of navbar-top */
 }
 
+/* Individual dropdown links */
+.nav-dropdown-content a {
+  color: #111418;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.nav-dropdown-content a:hover {
+  background-color: #31b651;
+  color: #ffffff;
+}
+
+/* Mobile responsive styles */
 @media screen and (max-width: 768px) {
   .nav-links-desktop {
     display: none;
@@ -98,14 +131,14 @@
 
 .contact-info {
   display: flex;
-  align-items: center; /* Center vertically */
-  justify-content: flex-start; /* Align to the left */
-  flex-grow: 1; /* Allow it to take up remaining space */
+  align-items: center;
+  justify-content: flex-start;
+  flex-grow: 1;
   padding-left: 5vw;
 }
 
 .contact-info span {
-  margin-right: 20px; /* Add some spacing between the text */
+  margin-right: 20px;
 }
 
 .select-wrapper {
@@ -125,7 +158,6 @@
 }
 
 .flag-icon {
-  width: 20px; /* Adjust size as needed */
-  margin-right: 10px; /* Add spacing between flag and text */
+  width: 20px;
+  margin-right: 10px;
 }
-

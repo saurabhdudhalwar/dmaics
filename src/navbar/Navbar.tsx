@@ -75,11 +75,11 @@ const Navbar = () => {
               Menu
             </button>
             <div className="nav-dropdown-content">
-              <a href="#home">Home</a>
-              <a href="#about">About Us</a>
-              <a href="#info">Regulatory</a>
-              <a href="#contact">Product List</a>
-              <a href="#contact">Contact Us</a>
+              <a href="/">Home</a>
+              <a href="/about-us">About Us</a>
+              <a href="/regulatory">Regulatory</a>
+              <a href="/product-list">Product List</a>
+              <a href="/contact-us">Contact Us</a>
             </div>
           </div>
           <div className="nav-links-desktop">
