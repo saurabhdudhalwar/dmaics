@@ -1,10 +1,18 @@
-import React from 'react'
-import MyCarousel from './MyCarousel'
+import React from "react";
+import Carousel from "./Carousel";
+import CartLeftPara from "./CartLeftPara";
+import CartRightPara from "./CartRightPara";
+import Services from "./Services";
 
 const Home = () => {
   return (
-    <div><img src="https://via.placeholder.com/800x400" alt="Slide 1" style={{width:"100%", height:"120vh"}} /></div>
-  )
-}
+    <div>
+      <Carousel />
+      <CartLeftPara />
+      <CartRightPara />
+      <Services />
+    </div>
+  );
+};
 
-export default Home
+export default Home;

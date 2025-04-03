@@ -1,0 +1,5 @@
+/* Importing Leaflet CSS */
+.leaflet-container {
+  width: 100%;
+  height: 400px; /* Set desired height for the map */
+}

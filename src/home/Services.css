@@ -1,0 +1,51 @@
+.services-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.services-title {
+  font-size: 24px;
+  color: #31b651;
+  margin-bottom: 20px;
+}
+
+.services-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.service-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  font-size: 40px;
+  color: #31b651;
+  margin-bottom: 10px;
+}
+
+.service-title {
+  font-size: 16px;
+  color: #000000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .service-card {
+    padding: 15px;
+  }
+
+  .service-title {
+    font-size: 14px;
+  }
+}

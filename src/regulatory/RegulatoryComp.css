@@ -1,0 +1,62 @@
+.regulatory-container {
+  max-width: 90vw;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.regulatory-container h2 {
+  color: #31b651;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.regulatory-description {
+  font-size: 1em;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+.regulatory-services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #f3f1fc;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.regulatory-services ul {
+  flex: 1;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.regulatory-services li {
+  color: #31b651;
+  margin-bottom: 8px;
+  font-size: 1em;
+}
+
+h3 {
+  font-size: 1.4em;
+  color: #31b651;
+  margin-top: 20px;
+}
+
+.regulatory-extra {
+  font-size: 1em;
+  color: #4a4a4a;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .regulatory-services {
+    flex-direction: column;
+  }
+
+  .regulatory-services ul {
+    padding-bottom: 10px;
+  }
+}

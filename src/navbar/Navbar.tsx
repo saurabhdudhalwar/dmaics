@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Navbar.css"; // Import CSS file for styling
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
-import img from "../resource/Profile.jpeg";
+import img from "../resource/LogoMain.png";
 import { useDispatch, useSelector } from "react-redux";
 import { setActiveNavMenu } from "../store/slice";
 import { useNavigate } from "react-router-dom";
@@ -35,13 +35,24 @@ const Navbar = () => {
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
   };
+  
+  const scrollView = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'  // Smooth scrolling
+    })
+  }
 
   // Function to handle menu item click
   const handleActiveLink = (link: string, path: any) => {
     dispatch(setActiveNavMenu(link));
     setActiveNavItem(link); // Update active menu item
     navigation(`/${path}`);
+    scrollView()
   };
+
+
 
   return (
     <nav className={`navbar ${isNavSticky ? "sticky" : ""}`}>
@@ -56,7 +67,7 @@ const Navbar = () => {
             &nbsp; Email: example@example.com
           </span>
         </div>
-        <div className="select-wrapper">
+        {/* <div className="select-wrapper">
           <select>
             <option value="en">
               <img src={img} alt="English" className="flag-icon" /> English
@@ -65,10 +76,12 @@ const Navbar = () => {
               <img src={img} alt="French" className="flag-icon" /> French
             </option>
           </select>
-        </div>
+        </div> */}
       </div>
       <div className="navbar-bottom">
-        <div className="nav-logo">Logo</div>
+      <img src={img} alt="Zymeth Logo" className="footer-logo" style={{width: "140px"}}/>
+
+        {/* <div className="nav-logo">Dmaics Logo</div> */}
         <div className="nav-links">
           <div className={`nav-dropdown ${isNavOpen ? "open" : ""}`}>
             <button className="nav-dropdown-btn" onClick={toggleNav}>

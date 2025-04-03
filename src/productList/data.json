@@ -1,0 +1,282 @@
+[
+  {
+    "srNo": 5,
+    "productName": "Dentocan Standard 2%",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Lidocaine Hydrochloride"
+  },
+  {
+    "srNo": 6,
+    "productName": "Dentocan Forte 2%",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Lidocaine Hydrochloride"
+  },
+  {
+    "srNo": 13,
+    "productName": "Dentocan Plain 2%",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Lidocaine Hydrochloride."
+  },
+  {
+    "srNo": 14,
+    "productName": "3% Felocaine",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Prilocaine Hydrochloride with Felypressin."
+  },
+  {
+    "srNo": 15,
+    "productName": "Dentocan Special 2%",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Lidocaine Hydrochloride with Epinephrine."
+  },
+  {
+    "srNo": 16,
+    "productName": "4% Arti-Dent",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Articaine Hydrochloride with Epinephrine."
+  },
+  {
+    "srNo": 17,
+    "productName": "Cyanocobalamin Zymeth",
+    "therapeuticAction": "Treatment and prevention of vitamin deficiency",
+    "line": "Tablet",
+    "activePrinciple": "Cyanocobalamin (Vitamin B12)"
+  },
+  {
+    "srNo": 18,
+    "productName": "VAYGAH 100",
+    "therapeuticAction": "Treatment for Erectile Dysfunction",
+    "line": "Tablet",
+    "activePrinciple": "Sildenafil Citrate"
+  },
+  {
+    "srNo": 19,
+    "productName": "Neuro Plus",
+    "therapeuticAction": "Treatment and prevention of vitamin deficiency",
+    "line": "Tablet",
+    "activePrinciple": "Thiamine Hydrochloride (Vitamin B1), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12) and Tocopheryl Acetate (Vitamin E)"
+  },
+  {
+    "srNo": 20,
+    "productName": "ERGO ZYMETH",
+    "therapeuticAction": "Treatment of Vitamin D deficient states.",
+    "line": "Ampoule / Injection",
+    "activePrinciple": "Ergocalciferol"
+  },
+  {
+    "srNo": 5,
+    "productName": "Dentocan Standard 2%",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Lidocaine Hydrochloride"
+  },
+  {
+    "srNo": 6,
+    "productName": "Dentocan Forte 2%",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Lidocaine Hydrochloride"
+  },
+  {
+    "srNo": 13,
+    "productName": "Dentocan Plain 2%",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Lidocaine Hydrochloride."
+  },
+  {
+    "srNo": 14,
+    "productName": "3% Felocaine",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Prilocaine Hydrochloride with Felypressin."
+  },
+  {
+    "srNo": 15,
+    "productName": "Dentocan Special 2%",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Lidocaine Hydrochloride with Epinephrine."
+  },
+  {
+    "srNo": 16,
+    "productName": "4% Arti-Dent",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Articaine Hydrochloride with Epinephrine."
+  },
+  {
+    "srNo": 17,
+    "productName": "Cyanocobalamin Zymeth",
+    "therapeuticAction": "Treatment and prevention of vitamin deficiency",
+    "line": "Tablet",
+    "activePrinciple": "Cyanocobalamin (Vitamin B12)"
+  },
+  {
+    "srNo": 18,
+    "productName": "VAYGAH 100",
+    "therapeuticAction": "Treatment for Erectile Dysfunction",
+    "line": "Tablet",
+    "activePrinciple": "Sildenafil Citrate"
+  },
+  {
+    "srNo": 19,
+    "productName": "Neuro Plus",
+    "therapeuticAction": "Treatment and prevention of vitamin deficiency",
+    "line": "Tablet",
+    "activePrinciple": "Thiamine Hydrochloride (Vitamin B1), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12) and Tocopheryl Acetate (Vitamin E)"
+  },
+  {
+    "srNo": 20,
+    "productName": "ERGO ZYMETH",
+    "therapeuticAction": "Treatment of Vitamin D deficient states.",
+    "line": "Ampoule / Injection",
+    "activePrinciple": "Ergocalciferol"
+  },
+  {
+    "srNo": 5,
+    "productName": "Dentocan Standard 2%",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Lidocaine Hydrochloride"
+  },
+  {
+    "srNo": 6,
+    "productName": "Dentocan Forte 2%",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Lidocaine Hydrochloride"
+  },
+  {
+    "srNo": 13,
+    "productName": "Dentocan Plain 2%",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Lidocaine Hydrochloride."
+  },
+  {
+    "srNo": 14,
+    "productName": "3% Felocaine",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Prilocaine Hydrochloride with Felypressin."
+  },
+  {
+    "srNo": 15,
+    "productName": "Dentocan Special 2%",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Lidocaine Hydrochloride with Epinephrine."
+  },
+  {
+    "srNo": 16,
+    "productName": "4% Arti-Dent",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Articaine Hydrochloride with Epinephrine."
+  },
+  {
+    "srNo": 17,
+    "productName": "Cyanocobalamin Zymeth",
+    "therapeuticAction": "Treatment and prevention of vitamin deficiency",
+    "line": "Tablet",
+    "activePrinciple": "Cyanocobalamin (Vitamin B12)"
+  },
+  {
+    "srNo": 18,
+    "productName": "VAYGAH 100",
+    "therapeuticAction": "Treatment for Erectile Dysfunction",
+    "line": "Tablet",
+    "activePrinciple": "Sildenafil Citrate"
+  },
+  {
+    "srNo": 19,
+    "productName": "Neuro Plus",
+    "therapeuticAction": "Treatment and prevention of vitamin deficiency",
+    "line": "Tablet",
+    "activePrinciple": "Thiamine Hydrochloride (Vitamin B1), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12) and Tocopheryl Acetate (Vitamin E)"
+  },
+  {
+    "srNo": 20,
+    "productName": "ERGO ZYMETH",
+    "therapeuticAction": "Treatment of Vitamin D deficient states.",
+    "line": "Ampoule / Injection",
+    "activePrinciple": "Ergocalciferol"
+  },
+  {
+    "srNo": 5,
+    "productName": "Dentocan Standard 2%",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Lidocaine Hydrochloride"
+  },
+  {
+    "srNo": 6,
+    "productName": "Dentocan Forte 2%",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Lidocaine Hydrochloride"
+  },
+  {
+    "srNo": 13,
+    "productName": "Dentocan Plain 2%",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Lidocaine Hydrochloride."
+  },
+  {
+    "srNo": 14,
+    "productName": "3% Felocaine",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Prilocaine Hydrochloride with Felypressin."
+  },
+  {
+    "srNo": 15,
+    "productName": "Dentocan Special 2%",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Lidocaine Hydrochloride with Epinephrine."
+  },
+  {
+    "srNo": 16,
+    "productName": "4% Arti-Dent",
+    "therapeuticAction": "Dental Anesthesia",
+    "line": "Dental Cartridges",
+    "activePrinciple": "Articaine Hydrochloride with Epinephrine."
+  },
+  {
+    "srNo": 17,
+    "productName": "Cyanocobalamin Zymeth",
+    "therapeuticAction": "Treatment and prevention of vitamin deficiency",
+    "line": "Tablet",
+    "activePrinciple": "Cyanocobalamin (Vitamin B12)"
+  },
+  {
+    "srNo": 18,
+    "productName": "VAYGAH 100",
+    "therapeuticAction": "Treatment for Erectile Dysfunction",
+    "line": "Tablet",
+    "activePrinciple": "Sildenafil Citrate"
+  },
+  {
+    "srNo": 19,
+    "productName": "Neuro Plus",
+    "therapeuticAction": "Treatment and prevention of vitamin deficiency",
+    "line": "Tablet",
+    "activePrinciple": "Thiamine Hydrochloride (Vitamin B1), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12) and Tocopheryl Acetate (Vitamin E)"
+  },
+  {
+    "srNo": 20,
+    "productName": "ERGO ZYMETH",
+    "therapeuticAction": "Treatment of Vitamin D deficient states.",
+    "line": "Ampoule / Injection",
+    "activePrinciple": "Ergocalciferol"
+  }
+]

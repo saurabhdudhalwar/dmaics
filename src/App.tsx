@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Regulatory from "./regulatory/Regulatory";
 import ProductList from "./productList/ProductList";
 import ContactUs from "./contactUs/ContactUs";
-import MyCarousel from "./home/MyCarousel";
+import Footer from "./footer/Footer";
 
 function App() {
   return (
@@ -13,7 +13,6 @@ function App() {
       <Router>
         <Navbar />
         <div style={{ marginTop: "18vh" }}>
-          
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about-us" element={<AboutUs />} />
@@ -22,6 +21,7 @@ function App() {
             <Route path="/contact-us" element={<ContactUs />} />
           </Routes>
         </div>
+        <Footer />
       </Router>
     </div>
   );

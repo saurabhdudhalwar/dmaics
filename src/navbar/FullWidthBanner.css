@@ -1,0 +1,27 @@
+.full-width-banner {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(111, 243, 142, 0.8); /* Green overlay with transparency */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-title {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+}
